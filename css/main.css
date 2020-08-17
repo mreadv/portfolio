@@ -282,7 +282,7 @@ footer .social-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 45%;
+  width: 190px;
 }
 
 footer .social-icons i {
@@ -323,11 +323,15 @@ footer .social-icons p {
 
 
 #about {
+  min-height: 475px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+#about p {
+  max-width: 300px;
+}
 
 
 
