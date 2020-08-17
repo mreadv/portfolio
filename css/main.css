@@ -297,9 +297,35 @@ footer .social-icons p {
 }
 
 
+/* ---------- Main (Hero) --------- */
+
+#hero {
+ background: url('../img/hero.jpg') center no-repeat; 
+ background-size: cover;
+ min-height: 290px;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+
+}
+
+#hero .content-wrapper{
+  max-width: 70%;
+}
+
+
+
+
 /* ---------- Main (About) ---------- */
 
+
+
+
+
 #about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
