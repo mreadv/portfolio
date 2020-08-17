@@ -169,8 +169,9 @@ address {
 }
 
 .content-wrapper {
+  padding: 0 30px 0 30px;
   width: 90%;
-  padding: 30px;
+
 }
 
 
@@ -186,7 +187,7 @@ footer {
 }
 
 header .content-wrapper {
-  margin: 0;
+  padding: 30px 0 30px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -246,6 +247,7 @@ header nav ul li {
 
 footer .content-wrapper {
     width: 90%;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -297,7 +299,18 @@ footer .social-icons p {
 }
 
 
-/* ---------- Main (Hero) --------- */
+footer .copyright {
+  margin: 90px 0 35px 0;
+  width: 100%;
+}
+
+footer .copyright p {
+  font-size: .875em;
+}
+
+
+
+/* ---------- Main About (Hero) --------- */
 
 #hero {
  background: url('../img/hero.jpg') center no-repeat; 
@@ -306,32 +319,107 @@ footer .social-icons p {
  display: flex;
  justify-content: flex-start;
  align-items: center;
-
 }
 
 #hero .content-wrapper{
-  
 }
 
 
 
 
-/* ---------- Main (About) ---------- */
+/* ---------- Main About (About) ---------- */
 
 
 
 
 
 #about {
-  min-height: 475px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+#about .content-wrapper {
+  margin: 50px 0 50px 0;
+}
+
+#about h2 {
+  margin: 0;
+}
+
 #about p {
 
 }
+
+#about .divider {
+  background: #DCF0A2;
+  height: 3px;
+  width: 100%;
+  margin: 20px 0 30px 0;
+}
+
+
+
+/* ---------- Main Portfolio ----------*/
+
+#portfolio h2 {
+  margin: 0;
+  padding-top: 50px;
+}
+
+
+#portfolio .divider {
+  background: #DCF0A2;
+  height: 3px;
+  width: 100%;
+  margin: 20px 0 50px 0;
+}
+
+#portfolio h3 {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+
+
+#portfolio .thumbnail-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+#portfolio .mobile-tablet-container {
+  width: 100%;
+  display: flex;
+}
+
+#portfolio .mobile-tablet-container .tablet {
+  
+}
+
+#portfolio img {
+  width: 100%;
+}
+
+
+
+
+
+/*
+#portfolio .thumbnail-container img {
+ 
+  border: 1px solid red;
+  display: flex;
+  width: 100%;
+}
+*/
+
+
+
 
 
 
