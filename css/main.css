@@ -432,6 +432,46 @@ main #portfolio .mobile-tablet-container .mobile-item img {
 
 
 
+/* ---------- Main Services ----------*/
+
+
+.services-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 3px solid #DCF0A2;
+  padding: 20px 0 35px 0;
+  max-width: 350px;
+
+}
+
+.services-items h3 {
+  display: flex;
+  width: 30%;
+}
+.fontawesome-icon {
+  display: flex;
+  width: 70%;
+}
+
+.fontawesome-icon i {
+  font-size: 45px;
+}
+
+.services-description {
+  display: flex;
+  width: 100%;
+}
+
+.services-item 
 
 
 
