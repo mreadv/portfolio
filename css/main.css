@@ -380,46 +380,55 @@ footer .copyright p {
   padding-bottom: 30px;
 }
 
+main #portfolio .photo-container {
+ text-align: center;
+ display: flex; 
+ flex-direction: column; 
+ justify-content: center; 
+ align-content: center;
+ border: 1px solid blue;
+}
 
+main #portfolio  .desktop-item {
+  margin-bottom: 20px;
+}
 
-#portfolio .thumbnail-container {
-  width: 100%;
-  height: auto;
+main #portfolio .desktop-item img {
+ width: 100%;
+}
+
+main #portfolio .mobile-tablet-container {
+ position: relative;
+ text-align: center;
+ display: flex; 
+ justify-content: space-between; 
+ align-content: flex-start;
+ margin-bottom: 20px;
+ width: 100%;
+ border: 1px solid red;
+}
+
+main #portfolio  .tablet-item {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-
+  width: 66%;
+  border: 1px solid purple;
 }
 
-#portfolio .mobile-tablet-container {
-  width: 100%;
+main #portfolio .mobile-item {
   display: flex;
+  width: 30%;
+  border: 1px solid pink;
 }
 
-#portfolio .mobile-tablet-container .tablet {
-  
-}
-
-#portfolio img {
-  width: 100%;
-}
-
-
-
-
-
-/*
-#portfolio .thumbnail-container img {
- 
-  border: 1px solid red;
+main #portfolio .mobile-tablet-container .tablet-item img {
   display: flex;
   width: 100%;
 }
-*/
 
-
-
+main #portfolio .mobile-tablet-container .mobile-item img {
+  display: flex;
+  width: 100%;
+}
 
 
 
