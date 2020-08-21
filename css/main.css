@@ -435,6 +435,10 @@ main #portfolio .mobile-tablet-container .mobile-item img {
 /* ---------- Main Services ----------*/
 
 
+#services h2 {
+  margin-top: 50px;
+}
+
 .services-items {
   display: flex;
   flex-flow: row wrap;
@@ -449,7 +453,7 @@ article {
   align-items: center;
   border-top: 3px solid #DCF0A2;
   padding: 20px 0 35px 0;
-  max-width: 350px;
+  width: 100%;
 
 }
 
@@ -471,7 +475,10 @@ article {
   width: 100%;
 }
 
-.services-item 
+.bottom-item {
+  padding-bottom: 30px;
+  border-bottom: 3px solid #DCF0A2;
+}
 
 
 
