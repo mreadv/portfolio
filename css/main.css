@@ -403,7 +403,7 @@ main #portfolio .mobile-tablet-container {
  display: flex; 
  justify-content: space-between; 
  align-content: flex-start;
- margin-bottom: 20px;
+ margin-bottom: 10px;
  width: 100%;
  border: 1px solid red;
 }
@@ -430,6 +430,10 @@ main #portfolio .mobile-tablet-container .mobile-item img {
   width: 100%;
 }
 
+main #portfolio p {
+  margin-bottom: 30px;
+}
+
 
 
 /* ---------- Main Services ----------*/
@@ -451,7 +455,11 @@ article {
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: center;
-  border-top: 3px solid #DCF0A2;
+  border-top: 2px solid #DCF0A2;
+  /*
+  border-top-left-radius: 20px 10px;
+  border-top-right-radius: 10px 10px;
+  */
   padding: 20px 0 35px 0;
   width: 100%;
 
