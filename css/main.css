@@ -615,18 +615,27 @@ article {
 
 
 header .content-wrapper {
-  ;
-}
-
-header figure {
-  width: 50%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: row;
+}
+
+header figure {
+  
+  display: flex;
   border: 1px solid red;
 }
 
+header nav {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+}
+
+header .header-divider {
+  width: 0px;
+}
 
 
   #about .content-wrapper .headshot {
