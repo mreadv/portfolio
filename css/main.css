@@ -187,7 +187,8 @@ footer {
 }
 
 header .content-wrapper {
-  padding: 30px 0 30px 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,7 +206,6 @@ header figure {
 */
 
 header a {
-  border: 1px solid red;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -222,12 +222,11 @@ header .header-divider {
   background: #FBFAEB;
   height: 1px;
   width: 100%;
-  margin: 30px 0 30px 0;
+  margin: 20px 0 20px 0;
 }
 
 header nav {
-  border: 1px solid red;
-  width: 100%;
+  width: 70%;
   display: flex;
   align-items: center;
   flex-flow: row wrap;
@@ -291,7 +290,7 @@ footer .social-icons i {
   width: 40px;
   height: 40px;
   text-decoration: none;
-  color: ##FBFAEB;
+  color: #FBFAEB;
 }
 
 footer .social-icons p {
@@ -335,7 +334,7 @@ footer .copyright p {
 
 #about {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -490,6 +489,22 @@ article {
 
 
 
+
+/* Hide Tablet Content */
+
+#tablet-content {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #tablet-content {
+    display:block;
+  }
+}
+
+
+
+
 }
 
 /* ==========================================================================
@@ -580,6 +595,82 @@ article {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+
+ /* Tablet Styles Here */
+
+   @media screen and (min-width: 768px) {
+
+    @media screen and (min-width: 768px) {
+      #tablet-content {
+        display:block;
+      }
+
+
+.content-wrapper {
+  max-width: 720px;
+  border: 1px solid yellow
+}
+
+
+
+header .content-wrapper {
+  ;
+}
+
+header figure {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+  border: 1px solid red;
+}
+
+
+
+  #about .content-wrapper .headshot {
+    float: left;
+    shape-outside: url("../img/headshot.png");
+    shape-image-threshold: 4;
+    shape-margin: 5%;
+    padding-right: 25px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#mobile-content { 
+  display:none; 
+}
+@media screen and (max-width: 767px) {
+  #mobile-content { 
+    display:block; }
+  }
+
+
+
+
+
+/* ---------- Desktop Styles ----------*/
+
+  @media screen and (min-width: 1200px)
+
+
+
+
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
