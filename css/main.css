@@ -183,6 +183,9 @@ address {
 header,
 footer {
   background-color: #1F3C64;
+  /* alternate bg teal
+  background-color: #114267;
+  */
   color: #FBFAEB;
 }
 
@@ -385,7 +388,6 @@ main #portfolio .photo-container {
  flex-direction: column; 
  justify-content: center; 
  align-content: center;
- border: 1px solid blue;
 }
 
 main #portfolio  .desktop-item {
@@ -404,19 +406,16 @@ main #portfolio .mobile-tablet-container {
  align-content: flex-start;
  margin-bottom: 10px;
  width: 100%;
- border: 1px solid red;
 }
 
 main #portfolio  .tablet-item {
   display: flex;
   width: 66%;
-  border: 1px solid purple;
 }
 
 main #portfolio .mobile-item {
   display: flex;
   width: 30%;
-  border: 1px solid pink;
 }
 
 main #portfolio .mobile-tablet-container .tablet-item img {
@@ -609,28 +608,37 @@ article {
 
 .content-wrapper {
   max-width: 720px;
-  border: 1px solid yellow
+  padding: 0px 50px 0px 50px;
 }
 
 
+header a {
+  justify-content: flex-start;
+} 
 
 header .content-wrapper {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   flex-flow: row;
 }
 
 header figure {
-  
+  justify-content: flex-start;
   display: flex;
-  border: 1px solid red;
+}
+
+header figure p {
+  font-size: 1.125em;
 }
 
 header nav {
   display: flex;
   align-items: center;
-  border: 1px solid white;
+}
+
+header nav ul li {
+  font-size: 1em;
 }
 
 header .header-divider {
@@ -647,6 +655,9 @@ header .header-divider {
   }
 
 
+#hero h1 {
+  font-size: 2.75em;
+}
 
 
 
