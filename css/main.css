@@ -221,6 +221,10 @@ header p {
   text-transform: uppercase;
 }
 
+header image {
+  min-width: 90%;
+}
+
 header .header-divider {
   background: #FBFAEB;
   height: 1px;
@@ -229,7 +233,7 @@ header .header-divider {
 }
 
 header nav {
-  width: 70%;
+  width: 99%;
   display: flex;
   align-items: center;
   flex-flow: row wrap;
@@ -324,6 +328,7 @@ footer .copyright p {
 }
 
 #hero .content-wrapper{
+
 }
 
 
