@@ -169,8 +169,8 @@ address {
 }
 
 .content-wrapper {
-  margin: 0 30px 0 30px;
-  width: 90%;
+  padding: 0 30px 0 30px;
+  width: ;
 
 }
 
@@ -219,10 +219,6 @@ header a {
 header p {
   font-weight: 300;
   text-transform: uppercase;
-}
-
-header image {
-  min-width: 90%;
 }
 
 header .header-divider {
