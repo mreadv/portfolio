@@ -664,13 +664,7 @@ header .header-divider {
 }
 
 
-  #about .content-wrapper .headshot {
-    float: left;
-    shape-outside: url("../img/headshot.png");
-    shape-image-threshold: 4;
-    shape-margin: 5%;
-    padding-right: 25px;
-  }
+
 
 
 #hero h1 {
@@ -679,6 +673,12 @@ header .header-divider {
 
 #hero .content-wrapper {
   margin: 0 auto;
+}
+
+#hero {
+ background: url('../img/hero.jpg') center no-repeat; 
+ min-height: 470px;
+
 }
 
 
@@ -698,6 +698,33 @@ footer .content-wrapper {
 
 
 
+/* ---------- About ---------- */
+
+  #about .content-wrapper .headshot {
+    float: left;
+    shape-outside: url("../img/headshot.png");
+    shape-image-threshold: 4;
+    shape-margin: 5%;
+    padding-right: 25px;
+  }
+
+  #about .content-wrapper {
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #about .content-wrapper h2,
+  #about .content-wrapper p {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+
+  #about .content-wrapper h2 {
+    font-size: 2.5em;
+  }
 
 
 
