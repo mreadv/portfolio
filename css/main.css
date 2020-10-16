@@ -103,8 +103,8 @@ textarea {
 /* ---------- General ----------*/
 
 .content-wrapper {
-  width: 90%;
   margin: 0 auto;
+  width: 85%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -201,6 +201,7 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  
 }
 
 /* Is this figure style necessary? 
@@ -234,7 +235,7 @@ header .header-divider {
 }
 
 header nav {
-  width: 70%;
+  width: 98%;
   display: flex;
   align-items: center;
   flex-flow: row wrap;
@@ -253,9 +254,6 @@ header nav ul li {
 
 
 footer .content-wrapper {
-    width: 90%;
-    margin: 0 auto;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -349,14 +347,12 @@ footer .copyright p {
 
 #about .content-wrapper {
     
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-flow: row wrap;
-    width: 90%;
   }
 
 
@@ -380,9 +376,19 @@ footer .copyright p {
 
 /* ---------- Main Portfolio ----------*/
 
+
+#portfolio .content-wrapper {
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
 #portfolio h2 {
   margin: 0;
-  padding-top: 50px;
 }
 
 
@@ -390,13 +396,24 @@ footer .copyright p {
   background: #DCF0A2;
   height: 3px;
   width: 100%;
-  margin: 20px 0 50px 0;
+  margin: 20px 0 30px 0;
 }
 
+
+
 #portfolio h3 {
-  margin: 0;
-  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
+
+#portfolio h4 {
+  color: #1F3C64;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+
 
 main #portfolio .photo-container {
  text-align: center;
@@ -420,7 +437,6 @@ main #portfolio .mobile-tablet-container {
  display: flex; 
  justify-content: space-between; 
  align-content: flex-start;
- margin-bottom: 10px;
  width: 100%;
 }
 
@@ -444,9 +460,17 @@ main #portfolio .mobile-tablet-container .mobile-item img {
   width: 100%;
 }
 
-main #portfolio p {
-  margin-bottom: 30px;
+main #portfolio .thumbnail-wrapper-container p {
+  color: #1F3C64;
+  font-size: .875em;
+  padding-bottom: 10px;
 }
+
+#portfolio .flex-items {
+  margin: 0 0 10px 0;
+}
+
+
 
 
 
@@ -483,6 +507,7 @@ article {
   display: flex;
   width: 30%;
 }
+
 .fontawesome-icon {
   display: flex;
   width: 70%;
@@ -507,12 +532,12 @@ article {
 
 /* Hide Tablet Content */
 
-#tablet-content {
+.tablet-content {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
-  #tablet-content {
+  .tablet-content {
     display:block;
   }
 }
@@ -621,12 +646,12 @@ article {
         display:block;
       }
 
-
 .content-wrapper {
   max-width: 720px;
+  /*
   padding: 0px 50px 0px 50px;
+  */
 }
-
 
 header a {
   justify-content: flex-start;
@@ -637,7 +662,6 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row;
-  margin: 0 auto;
   min-height: 84px;
 }
 
@@ -663,35 +687,19 @@ header .header-divider {
   width: 0px;
 }
 
-
-
-
-
 #hero h1 {
   font-size: 2.75em;
 }
 
 #hero .content-wrapper {
-  margin: 0 auto;
 }
 
 #hero {
  background: url('../img/hero.jpg') center no-repeat; 
  min-height: 470px;
-
 }
-
-
-main #tablet-content .content-wrapper {
-  padding: 90px 0 90px 0;
-  margin: 0 auto;
-}
-
-
-
 
 footer .content-wrapper {
-  margin: 0 auto;
 }
 
 
