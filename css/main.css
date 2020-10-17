@@ -149,13 +149,13 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.625em;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 h3 {
-  font-size: 1.125em;
+  font-size: 1.25em;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -252,7 +252,6 @@ header nav ul li {
   font-size: .9375em;
 }
 
-
 footer .content-wrapper {
     display: flex;
     justify-content: center;
@@ -273,7 +272,6 @@ footer h3 {
 footer p {
   font-size: .875em;
 }
-
 
 footer .contact-info {
   width: 100%;
@@ -392,7 +390,6 @@ footer .copyright p {
   margin-top: 20px;
 }
 
-
 #portfolio .divider {
   background: #DCF0A2;
   height: 2px;
@@ -400,11 +397,10 @@ footer .copyright p {
   margin: 20px 0 30px 0;
 }
 
-
-
 #portfolio h3 {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 #portfolio h4 {
@@ -413,8 +409,6 @@ footer .copyright p {
   margin: 0;
   margin-bottom: 0;
 }
-
-
 
 main #portfolio .photo-container {
  text-align: center;
@@ -426,6 +420,10 @@ main #portfolio .photo-container {
 
 main #portfolio  .desktop-item {
   margin-bottom: 20px;
+}
+
+main #portfolio img {
+  border: 1px solid #D3D3D3;
 }
 
 main #portfolio .desktop-item img {
@@ -461,11 +459,30 @@ main #portfolio .mobile-tablet-container .mobile-item img {
   width: 100%;
 }
 
+main #portfolio .thumbnail-wrapper-container h4 {
+  padding: 30px 0 5px 0;
+}
+
 main #portfolio .thumbnail-wrapper-container p {
   color: #1F3C64;
   font-size: .875em;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
+
+main #portfolio .thumbnail-wrapper-container {
+  border-top: 2px solid #DCF0A2;
+
+}
+
+main #portfolio .thumbnail-bottom {
+border-bottom: 2px solid #DCF0A2;
+}
+
+
+main #portfolio .thumbnail-wrapper {
+  margin-bottom: 30px;
+}
+
 
 #portfolio .flex-items {
   margin: 0 0 10px 0;
@@ -479,15 +496,17 @@ main #portfolio .thumbnail-wrapper-container p {
 
 
 #services h2 {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
-services .divider {
+/*
+#services .divider {
   background: #DCF0A2;
   height: 3px;
   width: 100%;
   margin: 20px 0 30px 0;
 }
+*/
 
 .services-items {
   display: flex;
@@ -663,14 +682,19 @@ article {
 
 header a {
   justify-content: flex-start;
-} 
+}
+
+header nav {
+  width: 70%;
+  border: 1px solid yellow;
+}
 
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row;
-  min-height: 84px;
+  min-height: 144px;
 }
 
 header figure {
@@ -741,6 +765,34 @@ footer .content-wrapper {
   #about .content-wrapper h2 {
     font-size: 2.5em;
   }
+
+
+
+/* ---------- Portfolio ---------- */
+
+main #portfolio .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+main #portfolio .thumbnail-wrapper-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-basis: 48%;
+  flex-flow: row-wrap;
+}
+
+main #portfolio .content-wrapper h2 {
+  width: 100%;
+}
+
+main #portfolio .content-wrapper h3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 
 
 
