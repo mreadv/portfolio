@@ -260,7 +260,8 @@ footer .content-wrapper {
   }
 
 footer h2 {
-  margin: 50px 0 50px 0;
+  margin: 0;
+  padding: 50px 0 50px 0;
   width: 100%;
 }
 
@@ -306,7 +307,7 @@ footer .social-icons p {
 
 
 footer .copyright {
-  margin: 90px 0 35px 0;
+  padding: 90px 0 35px 0;
   width: 100%;
 }
 
@@ -750,45 +751,63 @@ footer .content-wrapper {
 }
 
 
+/*
 footer .contact-info, 
 footer .social {
   width: 48%;
   margin-top: 0;
-  justify-content: center;
 }
+
+footer .social {
+  width: 40%;
+}
+*/
+
+
+
 
 footer   {
   width: 100%;
 }
 
 footer h2 {
+  /*
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  */
+  padding: 70px 0 60px 0;
 
 }
 
 footer  h3 {
   display: flex;  
   width: 100%;
+  /*
   justify-content: center;
+  */
 }
 
-
+/*
 footer .social-icons {
-  width: 60%;
-  padding-top: 20px;
+  width: 70%;
 }
+*/
 
 footer .contact {
-  padding-top: 35px;
+  padding-top: 5px;
 }
 
 
 footer .copyright {
+
   display: flex;
+  /*
   justify-content: center;
+*/
+
 }
+
+
 
 
 
