@@ -275,6 +275,8 @@ footer p {
 
 footer .contact-info {
   width: 100%;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 footer .social {
@@ -288,10 +290,10 @@ footer .social-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 190px;
+  min-width: 200px;
 }
 
-footer .social-icons i {
+footer .social-icons a {
   width: 40px;
   height: 40px;
   text-decoration: none;
@@ -743,11 +745,47 @@ header .header-divider {
 
 footer .content-wrapper {
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+footer .contact-info, 
+footer .social {
+  width: 48%;
+  margin-top: 0;
   justify-content: center;
 }
 
+footer   {
+  width: 100%;
+}
+
 footer h2 {
-  color: red;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+
+}
+
+footer  h3 {
+  display: flex;  
+  width: 100%;
+  justify-content: center;
+}
+
+
+footer .social-icons {
+  width: 60%;
+  padding-top: 20px;
+}
+
+footer .contact {
+  padding-top: 35px;
+}
+
+
+footer .copyright {
   display: flex;
   justify-content: center;
 }
