@@ -328,8 +328,7 @@ footer .copyright p {
  align-items: center;
 }
 
-#hero .content-wrapper {
-}
+
 
 
 
@@ -344,26 +343,24 @@ footer .copyright p {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+
 }
 
-#about .content-wrapper {
-    
+#about .content-wrapper {    
     padding-top: 70px;
     padding-bottom: 50px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-flow: row wrap;
+
   }
-
-
 
 #about h2 {
   margin: 0;
 }
 
 #about p {
-
 }
 
 #about .divider {
@@ -446,7 +443,6 @@ main #portfolio .mobile-tablet-container {
 main #portfolio  .tablet-item {
   display: flex;
   width: 66%;
- 
 }
 
 main #portfolio .mobile-item {
@@ -478,16 +474,10 @@ main #portfolio .thumbnail-wrapper-container {
   border-top: 2px solid #DCF0A2;
   padding-bottom: 30px;
   padding-top: 30px;
-
 }
 
 main #portfolio .thumbnail-bottom {
 border-bottom: 2px solid #DCF0A2;
-}
-
-
-main #portfolio .thumbnail-wrapper {
-  
 }
 
 
@@ -539,16 +529,17 @@ article {
 
 .services-items h3 {
   display: flex;
-  width: 30%;
+  width: 45%;
 }
 
 .fontawesome-icon {
   display: flex;
-  width: 70%;
+  justify-content: flex-start;
+  width: 55%; 
 }
 
 .fontawesome-icon i {
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .services-description {
@@ -713,8 +704,6 @@ header .content-wrapper {
   min-height: 144px;
 }
 
-
-
 header  p {
   font-size: 1.125em;
 }
@@ -741,6 +730,7 @@ header .header-divider {
 
 #hero {
  background: url('../img/hero.jpg') center no-repeat; 
+ background-size: cover;
  min-height: 470px;
 }
 
@@ -750,63 +740,49 @@ footer .content-wrapper {
   align-items: flex-start;
 }
 
-
-/*
 footer .contact-info, 
 footer .social {
-  width: 48%;
+  display: flex;
+  justify-content: center;
   margin-top: 0;
 }
-
-footer .social {
-  width: 40%;
-}
-*/
-
-
-
 
 footer   {
   width: 100%;
 }
 
 footer h2 {
-  /*
   display: flex;
   justify-content: center;
-  */
   padding: 70px 0 60px 0;
-
 }
 
 footer  h3 {
   display: flex;  
   width: 100%;
-  /*
+  text-align: center;
   justify-content: center;
-  */
 }
 
-/*
-footer .social-icons {
-  width: 70%;
+footer .social h3 {
+  padding-top: 40px;
 }
-*/
 
 footer .contact {
   padding-top: 5px;
 }
 
-
 footer .copyright {
-
   display: flex;
-  /*
   justify-content: center;
-*/
+  padding-top: 70px;
 
 }
 
+
+
+
+/* ---------- Hero ---------- */
 
 
 
@@ -815,19 +791,18 @@ footer .copyright {
 
 /* ---------- About ---------- */
 
-  #about .content-wrapper .headshot {
-    float: left;
-    shape-outside: url("../img/headshot.png");
-    shape-image-threshold: 4;
-    shape-margin: 5%;
-    padding-right: 25px;
+  #about {
+  
+  
+    
   }
 
   #about .content-wrapper {
     justify-content: center;
     align-items: center;
-  }
+    padding: 70px 40px 70px 25px;
 
+  }
 
   #about .content-wrapper h2 {
     display: flex;
@@ -845,16 +820,13 @@ footer .copyright {
   #about .about-flex-container p {
     padding-bottom: 30px;
     width: 49%;
+    font-weight: 600;
   }
-
 
   #about .about-flex-container .paragraphs {
     display: flex;
     justify-content: space-between;
   }
-  
-  
-
 
   #about .content-wrapper h2 {
     font-size: 2.5em;
@@ -899,14 +871,11 @@ main #portfolio .flex-container .thumbnail-bottom {
   padding-top: 0;
 }
 
-
-
 main #portfolio .flex-container .portfolio-description {
   display: flex;
   flex-flow: column;
   justify-content: center;
 }
-
 
 main #portfolio .portfolio-description h4,
 main #portfolio .portfolio-description p {
@@ -920,6 +889,68 @@ main #portfolio .content-wrapper h3 {
   width: 100%;
   justify-content: center;
 }
+
+
+
+
+
+/* ---------- Services ---------- */
+
+
+
+main #services .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+main #services h2 {
+   
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+  width: 100%;
+
+}
+
+main #services .flex-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-flow: row wrap;
+
+  border-top: 2px solid #DCF0A2;
+  border-bottom: 2px solid #DCF0A2;
+}
+
+main #services .row {
+  display: flex;
+  width: 48%;
+}
+
+main #services h3 {
+  width: 60%;
+}
+
+main #services .fontawesome-icon  {
+  width: 40%;
+}
+
+
+main #services .divider {
+  display: none;
+}
+
+main #services .bottom-item {
+  border: none;
+}
+
+main #services article {
+  border: none;
+}
+
+
+main #services 
 
 
 
