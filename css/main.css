@@ -11,11 +11,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-}
+   html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+  }
 
 /*
  * Remove text-shadow in selection highlight:
@@ -27,7 +27,7 @@ html {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
+ ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
@@ -41,7 +41,7 @@ html {
  * A better looking default horizontal rule
  */
 
-hr {
+ hr {
   display: block;
   height: 1px;
   border: 0;
@@ -56,12 +56,12 @@ hr {
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+ audio,
+ canvas,
+ iframe,
+ img,
+ svg,
+ video {
   vertical-align: middle;
 }
 
@@ -69,7 +69,7 @@ video {
  * Remove default fieldset styles.
  */
 
-fieldset {
+ fieldset {
   border: 0;
   margin: 0;
   padding: 0;
@@ -79,7 +79,7 @@ fieldset {
  * Allow only vertical resizing of textareas.
  */
 
-textarea {
+ textarea {
   resize: vertical;
 }
 
@@ -87,12 +87,12 @@ textarea {
    Browser Upgrade Prompt
    ========================================================================== */
 
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
+   .browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+  }
 
 /* ==========================================================================
    Author's custom styles
@@ -100,94 +100,94 @@ textarea {
 
 
 
-/* ---------- General ----------*/
+   /* ---------- General ----------*/
 
-.content-wrapper {
-  margin: 0 auto;
-  width: 85%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+   .content-wrapper {
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
-.container {
-  min-width: 360px;
-}
-
-
-
-html {
-  font-size: 16px;
-}
-
-body {
-  font-size: 1em;
-  font-family: 'Quicksand', sans-serif;
-  color: #1F3C64;
-  text-align: left;
-}
-
-ul,
-ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: #FBFAEB;
-  text-decoration: none;
-
-}
-
-h1 {
-  font-weight: 300;
-  font-size: 1.875em;
-  margin: 0;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: 1.625em;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-size: 1.25em;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-p {
-  font-size: 1em;
-  line-height: 1.375em;
-  margin: 0;
-}
-
-img {
-  width: ;
-}
-
-figure {
-  margin: 0;
-}
-
-address {
-  font-style: normal;
-}
+  .container {
+    min-width: 360px;
+  }
 
 
 
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+    color: #1F3C64;
+    text-align: left;
+  }
+
+  ul,
+  ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: #FBFAEB;
+    text-decoration: none;
+
+  }
+
+  h1 {
+    font-weight: 300;
+    font-size: 1.875em;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 1.625em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 1.25em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1em;
+    line-height: 1.375em;
+    margin: 0;
+  }
+
+  img {
+    width: ;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  address {
+    font-style: normal;
+  }
 
 
-/* ---------- Base Header - Footer Styles ----------*/
 
 
-header,
-footer {
-  background-color: #1F3C64;
+
+  /* ---------- Base Header - Footer Styles ----------*/
+
+
+  header,
+  footer {
+    background-color: #1F3C64;
   /* alternate bg teal
   background-color: #114267;
   */
@@ -253,11 +253,11 @@ header nav ul li {
 }
 
 footer .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 footer h2 {
   margin: 0;
@@ -347,14 +347,13 @@ footer .copyright p {
 }
 
 #about .content-wrapper {    
-    padding-top: 70px;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-flow: row wrap;
-
-  }
+  padding-top: 70px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 #about h2 {
   margin: 0;
@@ -376,13 +375,13 @@ footer .copyright p {
 
 
 #portfolio .content-wrapper {
-    padding-top: 70px;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-flow: row wrap;
-  }
+  padding-top: 70px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 #portfolio h2 {
   display: flex;
@@ -415,7 +414,6 @@ main #portfolio .photo-container {
  flex-direction: column; 
  justify-content: center; 
  align-content: center;
- 
 }
 
 main #portfolio  .desktop-item {
@@ -436,6 +434,7 @@ main #portfolio .mobile-tablet-container {
  display: flex; 
  justify-content: space-between; 
  align-content: flex-start;
+ align-items: center;
  width: 100%;
 }
 
@@ -451,11 +450,13 @@ main #portfolio .mobile-item {
 
 main #portfolio .mobile-tablet-container .tablet-item img {
   display: flex;
+  align-self: center;
   width: 100%;
 }
 
 main #portfolio .mobile-tablet-container .mobile-item img {
   display: flex;
+  align-self: center;
   width: 100%;
 }
 
@@ -476,9 +477,8 @@ main #portfolio .thumbnail-wrapper-container {
 }
 
 main #portfolio .thumbnail-bottom {
-border-bottom: 2px solid #DCF0A2;
+  border-bottom: 2px solid #DCF0A2;
 }
-
 
 #portfolio .flex-items {
   margin: 0 0 10px 0;
@@ -492,7 +492,6 @@ border-bottom: 2px solid #DCF0A2;
 
 
 main #services .content-wrapper {
-
   padding-bottom: 40px;
 }
 
@@ -501,9 +500,6 @@ main #services .content-wrapper {
   margin: 0;
   padding-bottom: 25px;
 }
-
-
-
 
 /*
 #services .divider {
@@ -530,14 +526,12 @@ article {
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: center;
-  
   /*
   border-top-left-radius: 20px 10px;
   border-top-right-radius: 10px 10px;
   */
   padding: 20px 0 35px 0;
   width: 100%;
-
 }
 
 .services-items h3 {
@@ -594,7 +588,7 @@ article {
  * Hide visually and from screen readers
  */
 
-.hidden {
+ .hidden {
   display: none !important;
 }
 
@@ -676,7 +670,7 @@ article {
    ========================================================================== */
 
 
- /* Tablet Styles Here */
+   /* Tablet Styles Here */
 
    @media screen and (min-width: 768px) {
 
@@ -685,8 +679,8 @@ article {
         display:block;
       }
 
-.content-wrapper {
-  max-width: 720px;
+      .content-wrapper {
+        max-width: 720px;
   /*
   padding: 0px 50px 0px 50px;
   */
@@ -805,46 +799,47 @@ footer .copyright {
 
 /* ---------- About ---------- */
 
-  #about {
-  
-  
-    
-  }
+#about {
 
-  #about .content-wrapper {
-    justify-content: center;
-    align-items: center;
-    padding: 70px 40px 70px 25px;
 
-  }
 
-  #about .content-wrapper h2 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
+}
 
-  #about .about-flex-container p,
-  #about .about-flex-container figure {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
+#about .content-wrapper {
+  justify-content: center;
+  align-items: center;
+  padding: 70px 40px 70px 25px;
 
-  #about .about-flex-container p {
-    padding-bottom: 30px;
-    width: 49%;
-    font-weight: 600;
-  }
+}
 
-  #about .about-flex-container .paragraphs {
-    display: flex;
-    justify-content: space-between;
-  }
+#about .content-wrapper h2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 
-  #about .content-wrapper h2 {
-    font-size: 2.5em;
-  }
+#about .about-flex-container p,
+#about .about-flex-container figure {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#about .about-flex-container p {
+  padding-bottom: 30px;
+  width: 49%;
+}
+
+#about .about-flex-container .paragraphs {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#about .content-wrapper h2 {
+  font-size: 2.5em;
+}
 
 
 
@@ -876,9 +871,9 @@ main #portfolio .thumbnail-wrapper-container {
 */
 
 main #portfolio .flex-container .thumbnail-wrapper-container {
-    display: flex;
-    width: 48%;
-    border: none;
+  display: flex;
+  width: 48%;
+  border: none;
 }
 
 main #portfolio .flex-container .thumbnail-bottom {
@@ -919,7 +914,7 @@ main #services .content-wrapper {
 }
 
 main #services h2 {
-   
+
   display: flex;
   justify-content: center;
   
@@ -1016,7 +1011,7 @@ main #services
 
 
 
-/* ---------- Desktop Styles ----------*/
+  /* ---------- Desktop Styles ----------*/
 
   @media screen and (min-width: 1200px)
 
@@ -1024,16 +1019,16 @@ main #services
 
 
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+  @media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+  }
 
-@media print,
+  @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+    /* Style adjustments for high resolution devices */
+  }
 
 /* ==========================================================================
    Print styles.
@@ -1041,62 +1036,62 @@ main #services
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
-  *,
-  *:before,
-  *:after {
-    background: transparent !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
+   @media print {
+    *,
+    *:before,
+    *:after {
+      background: transparent !important;
+      color: #000 !important;
+      /* Black prints faster */
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+    a[href]:after {
+      content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+      content: " (" attr(title) ")";
+    }
   /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: "";
-  }
-  pre {
-    white-space: pre-wrap !important;
-  }
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
+     a[href^="#"]:after,
+     a[href^="javascript:"]:after {
+      content: "";
+    }
+    pre {
+      white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+      border: 1px solid #999;
+      page-break-inside: avoid;
+    }
   /*
      * Printing Tables:
      * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-  thead {
-    display: table-header-group;
+     thead {
+      display: table-header-group;
+    }
+    tr,
+    img {
+      page-break-inside: avoid;
+    }
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+    h2,
+    h3 {
+      page-break-after: avoid;
+    }
   }
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
-}
 
