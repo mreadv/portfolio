@@ -491,12 +491,12 @@ main #portfolio .thumbnail-bottom {
 /* ---------- Main Services ----------*/
 
 
-main #services .content-wrapper {
+ #services .content-wrapper {
   padding-bottom: 40px;
+  padding-top: 70px;
 }
 
 #services h2 {
-  padding-top: 70px;
   margin: 0;
   padding-bottom: 25px;
 }
@@ -1013,9 +1013,60 @@ main #services
 
   /* ---------- Desktop Styles ----------*/
 
-  @media screen and (min-width: 1200px)
+  @media screen and (min-width: 1200px) {
+
+    .content-wrapper {
+      max-width: 960px;
+    }
+
+    #hero h1 {
+      font-size: 2.8125em;
+    }
+
+    header .content-wrapper a p {
+      font-size: 1.375em;
+    }
+
+    header .content-wrapper nav ul {
+      font-size: 1.125em;
+    
+    }
 
 
+    #about .content-wrapper {
+      padding-top: 100px;
+    }
+
+    #portfolio .content-wrapper {
+      padding-top: 100px;
+    }
+
+    #services .content-wrapper {
+      padding-top: 100px;
+    }
+
+    #about .content-wrapper h2,
+    #portfolio .content-wrapper h2,
+    #services .content-wrapper h2 {
+      font-size: 2.75em;
+    }
+
+
+    main #portfolio .flex-container .thumbnail-wrapper-container {
+  display: flex;
+  width: 30%;
+  border: none;
+}
+
+  main #portfolio .flex-container .thumbnail-wrapper-container {
+    padding-top: 30px;
+  }
+
+  #portfolio .portfolio-description {
+    min-height: 94px;
+  }
+
+  }
 
 
 
