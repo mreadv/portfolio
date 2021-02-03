@@ -386,20 +386,30 @@ footer .copyright p {
 #portfolio h2 {
   display: flex;
   margin: 0;
+  width: 100%;
 }
 
+/*
 #portfolio .divider {
   background: #DCF0A2;
   height: 2px;
   width: 100%;
-  margin: 20px 0 30px 0;
+  margin: 20px 0 0 0;
 }
+*/
 
 #portfolio h3 {
   margin: 0;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 60px;
+  border-bottom: 2px solid #DCF0A2;
+  border-top: 2px solid #DCF0A2;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
+
+
 
 #portfolio h4 {
   color: #1F3C64;
@@ -416,7 +426,7 @@ main #portfolio .photo-container {
  align-content: center;
 }
 
-main #portfolio  .desktop-item {
+main #portfolio  .full-width-item {
   margin-bottom: 20px;
 }
 
@@ -424,7 +434,7 @@ main #portfolio img {
   border: 1px solid #D3D3D3;
 }
 
-main #portfolio .desktop-item img {
+main #portfolio .full-width-item img {
  width: 100%;
 }
 
@@ -471,14 +481,17 @@ main #portfolio .thumbnail-wrapper-container p {
 }
 
 main #portfolio .thumbnail-wrapper-container {
-  border-top: 2px solid #DCF0A2;
-  padding-bottom: 30px;
+  /*border-top: 2px solid #DCF0A2;
+  */
+  padding-bottom: 10px;
   padding-top: 30px;
 }
 
+/*
 main #portfolio .thumbnail-bottom {
   border-bottom: 2px solid #DCF0A2;
 }
+*/
 
 #portfolio .flex-items {
   margin: 0 0 10px 0;
@@ -855,9 +868,11 @@ main #portfolio .flex-container {
   justify-content: space-between;
   align-items: flex-start;
   flex-flow: row wrap;
+  /*
   border-top: 2px solid #DCF0A2;
+  
   border-bottom: 2px solid #DCF0A2;
-
+  */
 }
 
 /*
@@ -900,7 +915,9 @@ main #portfolio .content-wrapper h3 {
 }
 
 
-
+main #portfolio  h3 {
+  margin-top: 90px;
+}
 
 
 /* ---------- Services ---------- */
