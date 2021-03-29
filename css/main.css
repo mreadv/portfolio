@@ -291,7 +291,7 @@ footer .social-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 200px;
+  min-width: 125px;
 }
 
 footer .social-icons a {
@@ -368,6 +368,8 @@ footer .copyright p {
   width: 100%;
   margin: 20px 0 30px 0;
 }
+
+
 
 
 
@@ -463,6 +465,14 @@ main #portfolio .mobile-item {
   display: flex;
   width: 30%;
 }
+
+
+main .hover:hover {
+      opacity: 0.5;
+        filter: alpha(opacity=100);
+    }
+
+
 
 main #portfolio .mobile-tablet-container .tablet-item img {
   display: flex;
@@ -818,17 +828,11 @@ footer .copyright {
 
 /* ---------- About ---------- */
 
-#about {
-
-
-
-}
 
 #about .content-wrapper {
   justify-content: center;
   align-items: center;
   padding: 70px 40px 70px 25px;
-
 }
 
 #about .content-wrapper h2 {
@@ -846,7 +850,7 @@ footer .copyright {
 
 #about .about-flex-container p {
   padding-bottom: 30px;
-  width: 49%;
+  width: 48%;
 }
 
 #about .about-flex-container .paragraphs {
