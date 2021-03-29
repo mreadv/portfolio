@@ -162,7 +162,7 @@
 
   p {
     font-size: 1em;
-    line-height: 1.375em;
+    line-height: 1.5em;
     margin: 0;
   }
 
@@ -359,9 +359,6 @@ footer .copyright p {
   margin: 0;
 }
 
-#about p {
-}
-
 #about .divider {
   background: #DCF0A2;
   height: 3px;
@@ -468,13 +465,10 @@ main #portfolio .mobile-item {
   width: 30%;
 }
 
-
 main .hover:hover {
       opacity: 0.5;
-        filter: alpha(opacity=100);
-    }
-
-
+      filter: alpha(opacity=100);
+}
 
 main #portfolio .mobile-tablet-container .tablet-item img {
   display: flex;
