@@ -432,7 +432,7 @@ main #portfolio  .full-width-item {
 }
 
 main #portfolio img {
-  border: 1px solid #D3D3D3;
+  border: none;
 }
 
 main #portfolio .full-width-item img {
@@ -488,7 +488,7 @@ main #portfolio .thumbnail-wrapper-container h4 {
 
 main #portfolio .thumbnail-wrapper-container p {
   color: #1F3C64;
-  font-size: .875em;
+  font-size: 1em;
   margin-bottom: 10px;
 }
 
@@ -921,6 +921,10 @@ main #portfolio .portfolio-description p {
   justify-content: center;
 }
 
+.portfolio-description p {
+  min-height: 72px;
+}
+
 main #portfolio .content-wrapper h2,
 main #portfolio .content-wrapper h3 {
   display: flex;
@@ -1047,7 +1051,7 @@ main #services
   @media screen and (min-width: 1200px) {
 
     .content-wrapper {
-      max-width: 960px;
+      max-width: 1100px;
     }
 
     #hero h1 {
@@ -1085,7 +1089,7 @@ main #services
 
     main #portfolio .flex-container .thumbnail-wrapper-container {
   display: flex;
-  width: 30%;
+  width: 32%;
   border: none;
 }
 
