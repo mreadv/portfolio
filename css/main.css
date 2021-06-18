@@ -829,6 +829,8 @@ footer .copyright {
   justify-content: center;
   align-items: center;
   padding: 70px 40px 70px 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+
 }
 
 #about .content-wrapper h2 {
@@ -845,8 +847,9 @@ footer .copyright {
 }
 
 #about .about-flex-container p {
-  padding-bottom: 30px;
-  width: 48%;
+  padding: 15px;
+  width: 46%;
+  
 }
 
 #about .about-flex-container .paragraphs {
