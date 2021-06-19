@@ -490,6 +490,7 @@ main #portfolio .thumbnail-wrapper-container p {
   color: #1F3C64;
   font-size: 1em;
   margin-bottom: 10px;
+  min-height: 100px;
 }
 
 main #portfolio .thumbnail-wrapper-container {
