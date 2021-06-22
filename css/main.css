@@ -837,8 +837,10 @@ footer .copyright {
   justify-content: center;
   align-items: center;
   padding: 70px 40px 70px 25px;
+  /*
+  box-shadow around About section
   box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
-
+  */
 }
 
 #about .content-wrapper h2 {
