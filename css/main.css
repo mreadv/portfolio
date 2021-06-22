@@ -439,11 +439,15 @@ main #portfolio .full-width-item img {
  width: 100%;
 }
 
+
+
 #portfolio .thumbnail-wrapper-container {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
 }
+
+
 
 main #portfolio .mobile-tablet-container {
  position: relative;
