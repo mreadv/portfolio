@@ -510,6 +510,9 @@ main #portfolio .thumbnail-bottom {
   margin: 0 0 10px 0;
 }
 
+#portfolio .design {
+  border: 1px solid lightgray;
+}
 
 
 
