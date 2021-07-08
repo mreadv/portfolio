@@ -494,7 +494,6 @@ main #portfolio .thumbnail-wrapper-container p {
   color: #1F3C64;
   font-size: 1em;
   margin-bottom: 10px;
-  min-height: 100px;
 }
 
 main #portfolio .thumbnail-wrapper-container {
@@ -945,6 +944,14 @@ main #portfolio .content-wrapper h3 {
 
 main #portfolio  h3 {
   margin-top: 90px;
+}
+
+main #portfolio .thumbnail-wrapper-container p {
+  min-height: 100px;
+}
+
+main #portfolio .design-work .thumbnail-wrapper-container p {
+  min-height: 120px;
 }
 
 
